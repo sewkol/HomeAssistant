@@ -23,8 +23,8 @@ frontend:
 config:
 
 # Uncomment this if you are using SSL/TLS, running in Docker container, etc.
-# http:
-#   base_url: example.duckdns.org:8123
+http:
+  base_url: !secret homeurl
 
 # Checks for available updates
 # Note: This component will send some information about your system to
@@ -76,3 +76,7 @@ influxdb: !include influxdb.yaml
 xiaomi_aqara: !include xiaomi.yaml
 
 zone: !include zone.yaml
+
+zwave:
+  usb_path: /dev/ttyACM0
+

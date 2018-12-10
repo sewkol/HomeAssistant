@@ -1,12 +1,12 @@
 - name: Praca Seweryn
   latitude: !secret workslatitude
   longitude: !secret workslongitude
-  radius: 50
+  radius: 30
   icon: mdi:briefcase
 
 # This will override the default home zone
-- name: Dom
+- name: Home
   latitude: !secret homelatitude
   longitude: !secret homelongitude
   radius: 50
-  icon: mdi:home-circle
+  icon: mdi:home
