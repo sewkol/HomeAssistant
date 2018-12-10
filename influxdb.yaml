@@ -1,0 +1,13 @@
+  host: 127.0.0.1
+  port: 8086
+# uncomment if you used a password
+  username: admin
+  password: !secret influxdbpass
+  database: homeassistant
+  default_measurement: state
+# exclude stuff that is pointless to log
+  exclude:
+    domains:
+      - group
+#    entities:
+
