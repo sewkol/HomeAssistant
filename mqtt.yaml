@@ -1,0 +1,5 @@
+broker: 127.0.0.1
+username: !secret mosquittouser 
+password: !secret mosquittpasswd 
+discovery: true
+discovery_prefix: homeassistant

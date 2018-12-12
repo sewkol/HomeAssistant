@@ -1,1 +1,8 @@
-[]
+- id: '1544561525165'
+  alias: Oświetlenie rybki
+  trigger:
+  - at: '13:00'
+    platform: time
+  condition: []
+  action:
+  - service: homeassistant.turn_on

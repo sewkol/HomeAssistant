@@ -1,2 +1,6 @@
 media_player.le46c650_samsung_dtv_rcr:
   friendly_name: Samsung TV LE46C650
+zwave.neo_coolcam_water_leakage_detector_2:
+  wake_up_interval: 21600
+zwave.neo_coolcam_water_leakage_detector:
+  wake_up_interval: 21600
